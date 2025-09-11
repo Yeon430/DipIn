@@ -1,0 +1,43 @@
+{
+  "name": "dipin-platform",
+  "version": "1.0.0",
+  "description": "DipIn - CS 실전 역량 검증 플랫폼",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export",
+    "deploy": "npm run build && npm run export"
+  },
+  "dependencies": {
+    "next": "15.5.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.3",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "tailwindcss": "^3.4.17",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "lucide-react": "^0.468.0",
+    "firebase": "^11.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-next": "15.5.2"
+  },
+  "keywords": [
+    "education",
+    "cs",
+    "programming",
+    "projects",
+    "learning",
+    "nextjs",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

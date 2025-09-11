@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DipIn Logo Generator</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 50px;
+            background: white;
+            font-family: Arial, sans-serif;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .logo-circle {
+            width: 80px;
+            height: 80px;
+            background: #2563eb;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 48px;
+            font-weight: bold;
+        }
+        .logo-text {
+            font-size: 48px;
+            font-weight: bold;
+            color: #1f2937;
+        }
+        
+        /* 다양한 크기 버전들 */
+        .logo-small .logo-circle { width: 40px; height: 40px; font-size: 24px; }
+        .logo-small .logo-text { font-size: 24px; }
+        
+        .logo-large .logo-circle { width: 120px; height: 120px; font-size: 72px; }
+        .logo-large .logo-text { font-size: 72px; }
+        
+        .logo-huge .logo-circle { width: 200px; height: 200px; font-size: 120px; }
+        .logo-huge .logo-text { font-size: 120px; }
+        
+        .version {
+            margin: 40px 0;
+            padding: 20px;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+        }
+        .version h3 {
+            margin: 0 0 10px 0;
+            color: #374151;
+        }
+    </style>
+</head>
+<body>
+    <h1>DipIn Logo Generator</h1>
+    <p>브라우저에서 스크린샷을 찍어서 로고 이미지를 얻으세요!</p>
+    
+    <div class="version">
+        <h3>Small (40px)</h3>
+        <div class="logo logo-small">
+            <div class="logo-circle">D</div>
+            <div class="logo-text">ipIn</div>
+        </div>
+    </div>
+    
+    <div class="version">
+        <h3>Medium (80px)</h3>
+        <div class="logo">
+            <div class="logo-circle">D</div>
+            <div class="logo-text">ipIn</div>
+        </div>
+    </div>
+    
+    <div class="version">
+        <h3>Large (120px)</h3>
+        <div class="logo logo-large">
+            <div class="logo-circle">D</div>
+            <div class="logo-text">ipIn</div>
+        </div>
+    </div>
+    
+    <div class="version">
+        <h3>Huge (200px)</h3>
+        <div class="logo logo-huge">
+            <div class="logo-circle">D</div>
+            <div class="logo-text">ipIn</div>
+        </div>
+    </div>
+    
+    <div class="version">
+        <h3>Dark Background Version</h3>
+        <div style="background: #1f2937; padding: 20px; border-radius: 8px;">
+            <div class="logo">
+                <div class="logo-circle">D</div>
+                <div class="logo-text" style="color: white;">ipIn</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

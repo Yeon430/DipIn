@@ -1,0 +1,10 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="30" cy="30" r="30" fill="#2563eb"/>
+  
+  <!-- Letter D -->
+  <text x="30" y="40" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="white">D</text>
+  
+  <!-- Text "ipIn" -->
+  <text x="80" y="40" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1f2937">ipIn</text>
+</svg>
