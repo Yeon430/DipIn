@@ -48,7 +48,7 @@ const missingProjects = [
         'Achieved >85% accuracy on test dataset',
         'Created prediction pipeline with confidence scores'
       ],
-      sampleImage: '/api/placeholder/600/400',
+      sampleImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop&crop=center',
       sampleCode: 'def predict_sentiment(text):\n    # Your implementation here\n    return prediction'
     },
     itinerary: [

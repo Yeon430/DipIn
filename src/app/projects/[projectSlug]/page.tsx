@@ -399,7 +399,7 @@ const projects: Project[] = [
         '1-page model card with limitations/ethics',
         'F1 ≥ 0.78 performance target achieved'
       ],
-      sampleImage: 'https://images.unsplash.com/photo-1677442136019-21780ccdd014?w=400&h=250&fit=crop&crop=center',
+      sampleImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop&crop=center',
       sampleCode: 'from sklearn.feature_extraction.text import TfidfVectorizer\nfrom sklearn.linear_model import LogisticRegression\n\nvectorizer = TfidfVectorizer(max_features=10000)\nX_train = vectorizer.fit_transform(train_texts)\nmodel = LogisticRegression()\nmodel.fit(X_train, train_labels)'
     },
     itinerary: [

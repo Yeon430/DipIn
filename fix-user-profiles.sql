@@ -33,3 +33,8 @@ ALTER TABLE user_profiles DISABLE ROW LEVEL SECURITY;
 
 
 
+
+
+
+
+

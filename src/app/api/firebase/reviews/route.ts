@@ -182,14 +182,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'All fields are required' }, { status: 400 })
     }
 
-    // 중복 리뷰 확인
-    const reviewsRef = collection(db, 'reviews')
-    const q = query(reviewsRef, where('projectId', '==', projectId), where('userId', '==', userId))
-    const querySnapshot = await getDocs(q)
-    
-    if (!querySnapshot.empty) {
-      return NextResponse.json({ error: 'You have already reviewed this project' }, { status: 400 })
-    }
+    // 중복 리뷰 확인 제거 - 여러 번 리뷰 작성 가능
 
     // 새 리뷰 생성
     const newReviewRef = doc(collection(db, 'reviews'))

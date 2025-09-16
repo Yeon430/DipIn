@@ -78,7 +78,7 @@ const featuredProjects = [
     duration: 45,
     rating: 4.9,
     reviewCount: 89,
-    thumbnail: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=267&fit=crop&crop=center',
+    thumbnail: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=267&fit=crop&crop=center',
     evaluationType: 'CODE' as const,
     price: 49,
     creator: { name: 'Dr. Lisa Wang', avatar: '👩‍💻', rating: 4.9 },
